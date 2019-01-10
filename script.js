@@ -32,7 +32,7 @@ $(function(){
 		}
 		
 
-		$('#resultado').html("Seu IMC é: "+imc+" kg/m² e seu status é: "+traducao);
+		$('#resultado').html("Seu IMC é: "+imc.toFixed(2)+" kg/m² e seu status é: "+traducao);
 
 
 	});
